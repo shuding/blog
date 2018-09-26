@@ -1,0 +1,23 @@
+{
+  "name": "blog",
+  "description": "A blog.",
+  "license": "MIT",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
+  },
+  "devDependencies": {
+    "@mdx-js/mdx": "^0.15.0",
+    "@zeit/next-mdx": "^1.1.0",
+    "next": "^7.0.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "dependencies": {
+    "@mdx-js/tag": "^0.15.0",
+    "rehype-slug": "^2.0.1"
+  }
+}
