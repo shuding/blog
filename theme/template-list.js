@@ -7,13 +7,9 @@ const A = ({ children, href, ...props }) => {
       <style jsx>{`
         display: inline-block;
         margin-right: 1rem;
-        font-size: 1.25rem;
+        font-size: 1.1rem;
         color: #111;
-        text-decoration: underline;
-        text-decoration-color: transparent;
-        :hover {
-          color: #444;
-        }
+        text-decoration: none;
       `}</style>
     </a>
   </Link>
@@ -33,7 +29,6 @@ const P = ({ children }) => {
         font-size: 0.9rem;
         color: #bababa;
       }
-
       @media all and (max-width: 640px) {
         p {
           flex-direction: column;

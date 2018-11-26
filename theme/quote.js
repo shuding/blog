@@ -2,8 +2,7 @@ const Blockquote = ({ children }) => (
   <blockquote>
     {children}
     <style jsx>{`
-      font-style: italic;
-      color: #6e6e6e;
+      color: #666;
       margin: 2rem 1rem;
     `}</style>
   </blockquote>
