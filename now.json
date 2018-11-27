@@ -3,5 +3,8 @@
   "name": "shuding",
   "alias": "shud.in",
   "builds": [{ "src": "package.json", "use": "@now/static-build" }],
-  "routes": []
+  "routes": [
+    { "src": "/about", "dest": "/" },
+    { "src": "/(y86|labs|dogesite|cssosx|apple-pencil-safari-api-test|cube|introToGoogle|fdu-hci-2016|css-computer)", "dest": "https://quietshu.github.io/$1" }
+  ]
 }
