@@ -1,5 +1,7 @@
 import Link from 'next/link'
 
+import colors from './color'
+
 const A = ({ children, href, ...props }) => {
   let external = false
 
@@ -11,7 +13,7 @@ const A = ({ children, href, ...props }) => {
     <a target={external ? '_blank' : null} {...props}>
       {children}
       <style jsx>{`
-        color: #1625ff;
+        color: ${colors.main};
         text-decoration: underline;
         text-decoration-color: transparent;
         :hover {
