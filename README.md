@@ -1,21 +1,17 @@
-# My Website
+# Shu’s Website
 
-[https://shuding.now.sh](https://shuding.now.sh)
-
-## Install
-`yarn`
+[shud.in](https://shud.in)
 
 ## Development
-`yarn dev` and open localhost:3000
+- Install `yarn` from [yarnpkg.org](https://yarnpkg.org)
+- Dev: `yarn dev` and open localhost:3000
+- Build static: `yarn build` then `yarn export` to /out
 
-## Build static page
-`yarn build` then `yarn export` to /out
-
-## Deploy to Now
-`now`
+## ▲
+Every single push to master gets deployed to the **[Now](https://zeit.co/now)** Cloud automatically.  
+Powered by **Next.js**, **MDX** and **▲ ZEIT Now**.
 
 ---
 
 Website code open sourced under MIT.  
 Blog posts / artworks under CC BY-NC 4.0.
-
