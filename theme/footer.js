@@ -1,5 +1,7 @@
+const YEAR = (new Date).getFullYear()
+
 export default () => <footer>
-  <abbr title='This site and all its content are licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.'>CC BY-NC 4.0</abbr> <time>2018</time> © Shu Ding.
+  <abbr title='This site and all its content are licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.'>CC BY-NC 4.0</abbr> <time>{YEAR}</time> © Shu Ding.
   <style jsx>{`
     footer {
       margin-bottom: 2rem;
