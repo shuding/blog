@@ -16,6 +16,7 @@ const A = ({ children, href, ...props }) => {
         color: ${colors.main};
         text-decoration: underline;
         text-decoration-color: transparent;
+        cursor: pointer;
         :hover {
           text-decoration-color: currentColor;
         }
