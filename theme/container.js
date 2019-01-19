@@ -23,7 +23,10 @@ export default ({ children }) => (
         font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         text-rendering: optimizeLegibility;
+        // font-family: 'Playfair Display', 'Noto Serif SC', serif;
       }
+      
+      // @import url('https://fonts.googleapis.com/css?family=Noto+Serif+SC|Playfair+Display');
 
       @media all and (max-width: 640px) {
         div {
