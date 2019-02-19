@@ -2,7 +2,7 @@ import link from './link'
 
 const Item = ({ name, path, active }) => {
   if (!active) {
-    return <link.a href={path}>{name}</link.a>
+    return <link.a href={path} prefetch>{name}</link.a>
   }
   return <span>{name}</span>
 }
