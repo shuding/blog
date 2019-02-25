@@ -21,6 +21,7 @@ export default ({ children }) => (
         font-kerning: auto;
         font-variant: normal;
         font-smoothing: antialiased;
+        -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         text-rendering: optimizeLegibility;
         // font-family: 'Playfair Display', 'Noto Serif SC', serif;
