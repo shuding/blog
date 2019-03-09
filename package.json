@@ -14,11 +14,12 @@
     "@mdx-js/mdx": "^0.15.0",
     "@zeit/next-mdx": "^1.1.0",
     "next": "^7.0.0",
-    "react": "^16.8.0-alpha.1",
-    "react-dom": "^16.8.0-alpha.1"
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3"
   },
   "dependencies": {
     "@mdx-js/tag": "^0.15.0",
+    "lightense-images": "^1.0.8",
     "rehype-slug": "^2.0.1"
   }
 }
