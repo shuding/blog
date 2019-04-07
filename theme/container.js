@@ -1,5 +1,5 @@
-export default ({ children }) => (
-  <div>
+export default ({ children, ...props }) => (
+  <div {...props}>
     {children}
     <style jsx>{`
       div {
@@ -11,7 +11,7 @@ export default ({ children }) => (
       :global(body) {
         margin: 0;
         color: black;
-        font-size: 15px;
+        font-size: 14px;
         line-height: 1.65;
         word-break: break-word;
         word-wrap: break-word;
@@ -24,6 +24,7 @@ export default ({ children }) => (
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         text-rendering: optimizeLegibility;
+        background-color: white;
         // font-family: 'Playfair Display', 'Noto Serif SC', serif;
       }
       

@@ -33,10 +33,6 @@ export default ({src, title, alt, full, overflow}) => {
         max-width: 100%;
         text-align: center;
       }
-      img.full {
-        margin: 0 -1rem;
-        max-width: calc(100% + 2rem);
-      }
       img.overflow {
         margin: 0 -120px;
         max-width: calc(100% + 240px);
@@ -49,6 +45,20 @@ export default ({src, title, alt, full, overflow}) => {
       }
       figcaption :global(a) {
         color: inherit;
+      }
+
+      @media all and (max-width: 40rem) {
+        img.full {
+          margin: 0 calc(50% - 19rem);
+          max-width: 38rem;
+        }
+      }
+
+      @media all and (max-width: 38rem) {
+        img.full {
+          margin: 0 -1rem;
+          max-width: calc(100% + 2rem);
+        }
       }
 
       @media all and (max-width: ${640 + 240}px) {

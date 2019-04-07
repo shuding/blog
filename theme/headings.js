@@ -1,4 +1,4 @@
-const H1 = ({ children, id }) => <h1 id={id}>
+const H1 = ({ children, id, ...props }) => <h1 id={id} {...props}>
   {children}
   <style jsx>{`
     h1 {

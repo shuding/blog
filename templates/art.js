@@ -10,7 +10,7 @@ export default meta => ({ children }) => <MDXProvider components={theme.componen
   <theme.Container>
     <theme.components.h1>{meta.title}</theme.components.h1>
     <div className='navigation'>
-      <div className='meta'>Shu, <time>{meta.date}</time></div>
+      <div className='meta'><span rel='author'>{meta.author}</span>, <time>{meta.date}</time></div>
       <div className='back'><theme.components.a href='/art'>back</theme.components.a></div>
       <style jsx>{`
         .navigation {

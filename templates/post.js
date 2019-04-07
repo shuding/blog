@@ -7,10 +7,10 @@ export default meta => ({ children }) => <MDXProvider components={theme.componen
   <Head>
     <title>{meta.title}</title>
   </Head>
-  <theme.Container>
-    <theme.components.h1>{meta.title}</theme.components.h1>
+  <theme.Container itemscope='yo' itemtype='http://schema.org/blogPost'>
+    <theme.components.h1 itemtype='headline'>{meta.title}</theme.components.h1>
     <div className='navigation'>
-      <div className='meta'>Shu, <time>{meta.date}</time></div>
+      <div className='meta'><span rel='author' itemtype='author'>{meta.author}</span>, <time itemtype='datePublished'>{meta.date}</time></div>
       <div className='back'><theme.components.a href='/blog'>back</theme.components.a></div>
       <style jsx>{`
         .navigation {
@@ -23,7 +23,7 @@ export default meta => ({ children }) => <MDXProvider components={theme.componen
         }
       `}</style>
     </div>
-    <theme.Content>{children}</theme.Content>
+    <theme.Content meta={meta}>{children}</theme.Content>
     <theme.Footer/>
   </theme.Container>
 </></MDXProvider>

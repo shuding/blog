@@ -1,5 +1,5 @@
-export default ({ children }) => (
-  <div>
+export default ({ children, meta = {} }) => (
+  <div className={meta.lang ? 'lang-' + meta.lang : ''}>
     {children}
     <style jsx>{`
       div {
@@ -12,6 +12,22 @@ export default ({ children }) => (
       div :global(img) {
         max-width: 100%;
       }
+
+      div.lang-zh :global(p) {
+        text-indent: 2em;
+      }
+      div.lang-zh :global(p),
+      div.lang-zh :global(li) {
+        text-align: justify;
+        text-justify: auto;
+        hanging-punctuation: first allow-end;
+      }
+      div.lang-zh :global(em) {
+        text-emphasis: filled dot;
+        text-emphasis-position: under;
+        font-style: inherit;
+      }
+      
       // :global(:target) {
       //   background: #fffa9e;
       // }
