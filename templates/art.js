@@ -19,7 +19,7 @@ export default meta => ({ children }) => <MDXProvider components={theme.componen
           margin: 3rem 0 1rem;
         }
         .meta {
-          color: #bababa;
+          color: #999;
         }
       `}</style>
     </div>

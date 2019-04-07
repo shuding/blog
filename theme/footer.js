@@ -7,7 +7,7 @@ export default () => <footer>
       margin-bottom: 2rem;
       font-size: .8rem;
       text-align: center;
-      color: #bababa;
+      color: #999;
     }
     abbr {
       cursor: help;

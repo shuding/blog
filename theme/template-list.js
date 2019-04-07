@@ -26,8 +26,9 @@ const P = ({ children }) => {
       }
       p :global(time) {
         display: inline-block;
+        margin-bottom: 10px;
         font-size: 0.9rem;
-        color: #bababa;
+        color: #999;
       }
       @media all and (max-width: 640px) {
         p {

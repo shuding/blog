@@ -18,7 +18,7 @@ export default ({ url }) => <div className='navigation'>
       margin: 3rem -.5rem 1rem;
     }
     .navigation :global(span) {
-      color: #bababa;
+      color: #999;
       cursor: default;
     }
     .navigation :global(a), .navigation :global(span) {

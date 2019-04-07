@@ -11,13 +11,13 @@ export default ({ children, ...props }) => (
       :global(body) {
         margin: 0;
         color: black;
-        font-size: 14px;
+        font-size: 16px;
         line-height: 1.65;
         word-break: break-word;
         word-wrap: break-word;
         hyphens: auto;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Microsoft Yahei', sans-serif;
-        font-feature-settings: 'liga' 1, 'dlig' 1, 'lnum' 1, 'ordn' 1, 'halt' 1, 'kern' 1, 'kern';
+        font-family: 'Vollkorn', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Microsoft Yahei', sans-serif;
+        font-feature-settings: 'liga' 1, 'dlig' 1, 'lnum' 1, 'ordn' 1, 'halt' 1, 'kern' 1, 'kern', 'mgrk';
         font-kerning: auto;
         font-variant: normal;
         font-smoothing: antialiased;
@@ -25,10 +25,9 @@ export default ({ children, ...props }) => (
         -moz-osx-font-smoothing: grayscale;
         text-rendering: optimizeLegibility;
         background-color: white;
-        // font-family: 'Playfair Display', 'Noto Serif SC', serif;
       }
       
-      // @import url('https://fonts.googleapis.com/css?family=Noto+Serif+SC|Playfair+Display');
+      @import url('https://fonts.googleapis.com/css?family=Vollkorn:400,400i,600,600i');
 
       @media all and (max-width: 640px) {
         div {

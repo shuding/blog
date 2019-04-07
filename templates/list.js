@@ -17,7 +17,7 @@ export default meta => ({ children }) => <MDXProvider components={{
     <theme.Footer/>
     <style jsx>{`
       :global(small) {
-        color: #bababa;
+        color: #999;
       }
     `}</style>
   </theme.Container>
