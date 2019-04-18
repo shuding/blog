@@ -13,9 +13,6 @@ export default ({ children, meta = {} }) => (
         max-width: 100%;
       }
 
-      div.lang-zh :global(p) {
-        text-indent: 2em;
-      }
       div.lang-zh :global(p),
       div.lang-zh :global(li) {
         text-align: justify;
