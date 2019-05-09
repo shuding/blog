@@ -27,7 +27,7 @@ export default ({ children, ...props }) => (
         background-color: white;
       }
       
-      @import url('https://fonts.googleapis.com/css?family=Vollkorn:400,400i,600,600i');
+      @import url('https://fonts.googleapis.com/css?family=Vollkorn:400,400i,600,600i&font-display=swap');
 
       @media all and (max-width: 640px) {
         div {
