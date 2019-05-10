@@ -17,7 +17,7 @@ export default ({ children, meta = {} }) => (
       div.lang-zh :global(li) {
         text-align: justify;
         text-justify: auto;
-        hanging-punctuation: first allow-end;
+        hanging-punctuation: last allow-end;
       }
       div.lang-zh :global(em) {
         text-emphasis: filled dot;

@@ -8,8 +8,10 @@ const A = ({ children, href, ...props }) => {
         display: inline-block;
         margin-right: 1rem;
         font-size: 1.2rem;
+        font-weight: 500;
         color: black;
         text-decoration: none;
+        letter-spacing: -.02em;
       `}</style>
     </a>
   </Link>
@@ -19,14 +21,9 @@ const P = ({ children }) => {
   return <p>
     {children}
     <style jsx>{`
-      p {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-      }
       p :global(time) {
         display: inline-block;
-        margin-bottom: 8px;
+        margin-bottom: 5px;
         font-size: 0.9rem;
         color: black;
       }

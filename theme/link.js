@@ -13,13 +13,10 @@ const A = ({ children, href, prefetch, ...props }) => {
     <a target={external ? '_blank' : null} {...props}>
       {children}
       <style jsx>{`
-        color: ${colors.main};
+        color: inherit;
         text-decoration: underline;
         // text-decoration-color: transparent;
         cursor: pointer;
-        :hover {
-          text-decoration-color: currentColor;
-        }
       `}</style>
     </a>
   </Link>

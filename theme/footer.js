@@ -6,13 +6,27 @@ export default () => <footer>
     footer {
       margin-bottom: 2rem;
       font-size: .8rem;
-      text-align: center;
-      color: #ccc;
+      color: #aaa;
     }
     abbr {
       cursor: help;
       text-decoration: none;
       border-bottom: 1px dotted;
     }
+    // @supports (writing-mode: vertical-rl) {
+    //   @media screen and (min-width: 640px) {
+    //     footer {
+    //       position: fixed;
+    //       right: 0;
+    //       bottom: 0;
+    //       margin-bottom: 5px;
+    //       writing-mode: vertical-rl;
+    //       text-orientation: sideways;
+    //     }
+    //     abbr {
+    //       border-bottom: none;
+    //     }
+    //   }
+    // }
   `}</style>
 </footer>

@@ -27,6 +27,22 @@ export default ({ children, ...props }) => (
         background-color: white;
       }
       
+      :global(::selection) {
+        color: white;
+        background: #103cff;
+      }
+
+      :global(a:focus) {
+        outline-style: dotted;
+        outline-width: 1px;
+        outline-color: black;
+        outline-offset: 2px;
+      }
+
+      :global(a:active) {
+        outline: none;
+      }
+
       // @import url('https://fonts.googleapis.com/css?family=Rubik&font-display=swap');
 
       @media all and (max-width: 640px) {
