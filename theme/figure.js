@@ -40,8 +40,7 @@ export default ({src, title, alt, full, overflow}) => {
       figcaption {
         margin-top: .8rem;
         text-align: center;
-        font-size: .8rem;
-        color: #999;
+        font-size: .75rem;
       }
       figcaption :global(a) {
         color: inherit;

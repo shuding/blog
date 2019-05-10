@@ -7,8 +7,8 @@ const A = ({ children, href, ...props }) => {
       <style jsx>{`
         display: inline-block;
         margin-right: 1rem;
-        font-size: 1.1rem;
-        color: #111;
+        font-size: 1.2rem;
+        color: black;
         text-decoration: none;
       `}</style>
     </a>
@@ -26,9 +26,9 @@ const P = ({ children }) => {
       }
       p :global(time) {
         display: inline-block;
-        margin-bottom: 10px;
+        margin-bottom: 8px;
         font-size: 0.9rem;
-        color: #999;
+        color: black;
       }
       @media all and (max-width: 640px) {
         p {

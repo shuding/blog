@@ -24,6 +24,9 @@ export default ({ children, meta = {} }) => (
         text-emphasis-position: under;
         font-style: inherit;
       }
+      div.lang-zh :global(blockquote) {
+        font-style: normal;
+      }
       
       // :global(:target) {
       //   background: #fffa9e;

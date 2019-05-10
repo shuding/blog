@@ -6,6 +6,8 @@ import theme from '../theme'
 export default meta => ({ children }) => <MDXProvider components={theme.components}><>
   <Head>
     <title>{meta.title}</title>
+    <meta property="og:title" content={meta.title} />
+    <meta property="og:description" content={meta.description} />
   </Head>
   <theme.Container>
     <theme.components.h1>{meta.title}</theme.components.h1>
@@ -19,7 +21,7 @@ export default meta => ({ children }) => <MDXProvider components={theme.componen
           margin: 3rem 0 1rem;
         }
         .meta {
-          color: #999;
+          color: black;
         }
       `}</style>
     </div>

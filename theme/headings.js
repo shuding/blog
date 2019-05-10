@@ -27,9 +27,9 @@ const H3 = ({ children, id }) => <h3 id={id}>
   <a href={'#' + id}>{children}</a>
   <style jsx>{`
     h3 {
-      font-size: 1.1em;
+      font-size: 1.12em;
       margin-top: 2.5rem;
-      font-weight: 400;
+      font-weight: 500;
     }
     a {
       color: inherit;

@@ -15,7 +15,7 @@ const A = ({ children, href, prefetch, ...props }) => {
       <style jsx>{`
         color: ${colors.main};
         text-decoration: underline;
-        text-decoration-color: transparent;
+        // text-decoration-color: transparent;
         cursor: pointer;
         :hover {
           text-decoration-color: currentColor;
