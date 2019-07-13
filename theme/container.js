@@ -39,6 +39,13 @@ export default ({ children, ...props }) => (
         outline-offset: 2px;
       }
 
+      :global(h3:target) {
+        outline-style: dotted;
+        outline-width: 1px;
+        outline-color: black;
+        outline-offset: 2px;
+      }
+
       :global(a:active) {
         outline: none;
       }
