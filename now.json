@@ -1,7 +1,6 @@
 {
   "version": 2,
   "name": "shuding",
-  "alias": "shud.in",
   "builds": [
     { "src": "package.json", "use": "@now/static-build" }
   ],
