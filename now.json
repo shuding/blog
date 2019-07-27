@@ -7,6 +7,13 @@
   ],
   "routes": [
     { "src": "/about", "dest": "/" },
+    {
+      "src": "/blog/(.+)",
+      "status": 301,
+      "headers": {
+        "Location": "/posts/$1"
+      }
+    },
     { "src": "/(y86|labs|dogesite|cssosx|apple-pencil-safari-api-test|cube|introToGoogle|fdu-hci-2016|css-computer)(/.+)?", "dest": "https://quietshu.github.io/$1$2" },
     { "src": "/static/.*", "headers": { "cache-control": "public, max-age=31536000, immutable" } }
   ]

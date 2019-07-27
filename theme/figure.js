@@ -26,6 +26,7 @@ export default ({src, title, alt, full, overflow}) => {
     {title && <figcaption>{title}</figcaption>}
     <style jsx>{`
       figure {
+        font-size: 0;
         margin: 2rem 0 2.5rem;
       }
       img {
