@@ -9,7 +9,7 @@ const Item = ({ name, path, active }) => {
 
 export default ({ url }) => <div className='navigation'>
   <Item name='Blog' path='/blog' active={url === '/blog'}/>
-  <Item name='Art' path='/art' active={url === '/art'}/>
+  <Item name='Works' path='https://works.shud.in'/>
   <Item name='About' path='/' active={url === '/'}/>
   <style jsx>{`
     .navigation {
