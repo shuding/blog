@@ -1,6 +1,6 @@
-# Shu’s Website
+# Shu’s Website ([template](https://github.com/quietshu/blog-template))
 
-[shud.in](https://shud.in)
+[shud.in](https://shud.in) 
 
 ## Development
 - Install `yarn` from [yarnpkg.org](https://yarnpkg.org)
