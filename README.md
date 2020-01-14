@@ -1,6 +1,6 @@
 # Shu’s Website
 
-[shud.in](https://shud.in) 
+[old.shud.in](https://old.shud.in) (moved to https://github.com/quietshu/notion-blog)
 
 Created from the ([template](https://github.com/quietshu/blog-template)).
 
